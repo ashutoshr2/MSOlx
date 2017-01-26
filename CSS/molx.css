@@ -1,0 +1,91 @@
+body{margin:10px;}
+.header{width:100%; height:94px;}
+.header .left {float: left;    width: 85%; }
+.header .left .quote {color:#ED2023; font-size:18px;margin-right:20px;}
+.header .left img{height:56px; }
+.header .right{float: right;color: rgb(237, 32, 35);font-weight: bold;font-size: 20px;margin-right: 34px;line-height: 2;}	
+.header .right img{height:35px;width:35px;}
+.placeandsearch{margin-left: 2%}
+.body .placeandsearch{margin-left:16%;}
+.body .placeandsearch .input_label {
+    background:rgb(237, 32, 35)	 ;
+    border: 1px solid #CCC;
+    border-radius: 5px 0 0 5px;
+    display: inline-block;
+    height: 55px;
+    line-height: 48px;
+    margin-right: 0;
+    width: 80px!important;
+    vertical-align: middle;
+    color:white;
+}
+ .placeandsearch input[type=text] {
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 0 5px 5px 0;
+    color: #333;
+    font: 13px/1.6 'Helvetica Neue' , Arial, 'Liberation Sans' , FreeSans, sans-serif;
+    height: 58px;
+    line-height: 24px;
+    margin: 0px 8px 0px -5px;
+    outline: none;
+    padding: 0 3px;
+    width: 650px;
+}
+.placeandsearch label {
+  padding: 0 0 0 20px;
+}
+.btn {
+  background: rgb(237, 32, 35);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 16px 27px 15px 23px;
+  text-decoration: none;
+}
+.Categories{margin-left:16%; margin-right:16%;margin-top: 2%}
+.Categories .category{}
+.Categories .category img{float: left;height: 100px; width: 12%;margin-left: 9%;margin-top: 2%}
+
+.body .postad{margin-left:16%;margin-right: 16%}
+.body .postad .pheader{font-size: 31px;width:100%;}
+.body .postad .pbody{margin-top:2%;margin-left: 15%;width:100%;float: left}
+.body .postad .pbody .pbleft{width: 14%;float: left;margin-top: 4%;/*line-height: 3*/}
+.body .postad .pbody .pbright{width: 91%;margin-top: 4%;}
+.body .postad .pbody .submitad{ background: rgb(237, 32, 35);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 16px 27px 15px 23px;
+  text-decoration: none;}
+   .body .postad .pbody .pbright input {
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 0 5px 5px 0;
+    color: #333;
+    font: 13px/1.6 'Helvetica Neue' , Arial, 'Liberation Sans' , FreeSans, sans-serif;
+    height: 43px;
+    line-height: 24px;
+    margin: 0px 8px 0px -5px;
+    outline: none;
+    padding: 0 3px;
+    width: 298px;
+}
+.soflow {
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 295px;
+}
